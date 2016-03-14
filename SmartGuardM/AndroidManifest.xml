@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dft.smartguardm"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <!-- 权限许可 -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- 照相机 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> <!-- 调节音量 -->
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 读取手机状态与身份权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- 直接拨打电话号码 -->
+
+    <uses-permission android:name="android.permission.SEND_SMS" /> <!-- 发送短信 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 大致位置 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 精确位置 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 修改或删除SD卡中的内容 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- 查看网络连接 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 防止手机休眠 -->
+    <uses-permission android:name="android.permission.VIBRAT" /> <!-- 控制振动 -->
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:icon="@drawable/iconm"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.dft.smartguardm.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.dft.smartguardm.SocketCameraActivity" >
+        </activity>
+        <activity android:name="com.dft.smartguardm.JKSettingActivity" >
+        </activity>
+        <activity android:name="com.dft.smartguardm.JBSettingActivity" >
+        </activity>
+        <activity android:name="com.dft.smartguardm.SoftDescription" >
+        </activity>
+        <activity android:name="com.dft.smartguardm.SlidingMenu" >
+        </activity>
+        <activity android:name="com.dft.smartguardm.SMSHelp" >
+        </activity>
+        <activity android:name="com.dft.smartguardm.AlarmService" >
+        </activity>
+    </application>
+
+</manifest>

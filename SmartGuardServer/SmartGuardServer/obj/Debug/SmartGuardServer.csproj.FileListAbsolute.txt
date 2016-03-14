@@ -1,0 +1,14 @@
+C:\Users\银华\Desktop\SmartGuardServer\SmartGuardServer\bin\Debug\SmartGuardServer.exe
+C:\Users\银华\Desktop\SmartGuardServer\SmartGuardServer\bin\Debug\SmartGuardServer.pdb
+C:\Users\银华\Desktop\SmartGuardServer\SmartGuardServer\obj\Debug\SmartGuardServer.csprojResolveAssemblyReference.cache
+C:\Users\银华\Desktop\SmartGuardServer\SmartGuardServer\obj\Debug\SmartGuardServer.Properties.Resources.resources
+C:\Users\银华\Desktop\SmartGuardServer\SmartGuardServer\obj\Debug\SmartGuardServer.csproj.GenerateResource.Cache
+C:\Users\银华\Desktop\SmartGuardServer\SmartGuardServer\obj\Debug\SmartGuardServer.exe
+C:\Users\银华\Desktop\SmartGuardServer\SmartGuardServer\obj\Debug\SmartGuardServer.pdb
+F:\语言学习与安卓应用开发\android\Android历程\SmartGuardServer\SmartGuardServer\obj\Debug\SmartGuardServer.exe
+F:\语言学习与安卓应用开发\android\Android历程\SmartGuardServer\SmartGuardServer\obj\Debug\SmartGuardServer.pdb
+F:\IT_code\android\Android历程\SmartGuardServer\SmartGuardServer\obj\Debug\SmartGuardServer.exe
+F:\IT_code\android\Android历程\SmartGuardServer\SmartGuardServer\obj\Debug\SmartGuardServer.pdb
+F:\IT_code\android\Android历程\SmartGuardServer\SmartGuardServer\obj\Debug\SmartGuardServer.csprojResolveAssemblyReference.cache
+F:\IT_code\android\Android历程\SmartGuardServer\SmartGuardServer\obj\Debug\SmartGuardServer.Properties.Resources.resources
+F:\IT_code\android\Android历程\SmartGuardServer\SmartGuardServer\obj\Debug\SmartGuardServer.csproj.GenerateResource.Cache
